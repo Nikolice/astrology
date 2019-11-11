@@ -1,0 +1,45 @@
+body {
+    align-items: center;
+    background-color: darkmagenta;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+table {
+    background-color: silver;
+    border: groove silver thick;
+    padding: 5px;
+}
+
+th {
+    background-color: gold;
+    border: thick outset goldenrod;
+    color: black;
+}
+
+td {
+    background-color: lightslategrey;
+    border: thick groove gray;
+    color: #EEE;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+tr > td:nth-child(2), tr > td:nth-child(3) {
+    background-color: black;
+    color: white;
+}
+
+tr > td:nth-child(3) {
+    color: darkgoldenrod;
+}
+
+.wind  { background-color: white;     color: black; }
+.water { background-color: darkblue;  color: aqua; }
+.fire  { background-color: darkred;   color: gold; }
+.earth { background-color: green;     color: lawngreen; }
+
+.constant { background-color: #DDD; color: #666; }
+.mutable  { background-color: #BBB; color: #666; }
+.cardinal { background-color: #999; color: #666; }
