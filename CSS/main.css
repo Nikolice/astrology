@@ -12,7 +12,7 @@ table {
     padding: 5px;
 }
 
-th, td.index {
+th {
     background-color: gold;
     border: thick outset goldenrod;
     color: darkgoldenrod;
@@ -20,6 +20,12 @@ th, td.index {
     font-size: large;
     text-align: center;
     padding: 5px;
+}
+
+td.index {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 td {
@@ -39,15 +45,15 @@ tr > td.icon {
 }
 
 tr > td.name {
-    /* background-color: darkslateblue; */
-    /* color: white; */
+    background-color: darkslateblue;
+    color: white;
     text-align: center;
-    font-size: large;
+    font-size: x-large;
 }
 
 tr > td.entry_month, tr > td.entry_day {
     background-color: black;
-    color: darkgoldenrod;
+    color: gold;
     text-align: center;
     font-weight: bold;
     font-size: x-large;
@@ -67,10 +73,30 @@ tr > td.percentage_length {
     text-align: right;
 }
 
-.wind  { background-color: white;       color: black; }
-.water { background-color: darkblue;    color: aqua; }
-.fire  { background-color: darkred;     color: pink; }
-.earth { background-color: darkgreen;       color: lawngreen; }
+.wind  { 
+    background-color: white;           
+    color: gray; 
+    border: thick outset silver;
+}
+
+.water { 
+    background-color: darkblue;        
+    color:  aqua; 
+    border: thick outset royalblue;
+}
+
+.fire  { 
+    background-color: darkred;         
+    color: pink; 
+    border: thick outset crimson;
+}
+
+.earth { 
+    background-color: darkgreen;       
+    color: lawngreen; 
+    border: thick outset goldenrod;
+}
+
 
 .constant { background-color: #DDD; color: #666; }
 .mutable  { background-color: #BBB; color: #666; }
