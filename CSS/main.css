@@ -1,6 +1,6 @@
 body {
     align-items: center;
-    background-color: darkmagenta;
+    background-color: midnightblue;
     display: flex;
     height: 100%;
     justify-content: center;
@@ -12,10 +12,14 @@ table {
     padding: 5px;
 }
 
-th {
+th, td.index {
     background-color: gold;
     border: thick outset goldenrod;
-    color: black;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
 }
 
 td {
@@ -23,24 +27,50 @@ td {
     border: thick groove gray;
     color: #EEE;
     padding: 5px 10px;
+}
+
+tr > td.icon {
+    /* background-color: darkslateblue; */
+    background-color: black;
+    padding: 0;
+    /* color: white; */
+    text-align: center;
+    font-size: xxx-large;
+}
+
+tr > td.name {
+    /* background-color: darkslateblue; */
+    /* color: white; */
+    text-align: center;
+    font-size: large;
+}
+
+tr > td.entry_month, tr > td.entry_day {
+    background-color: black;
+    color: darkgoldenrod;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+tr > td.entry_day, tr > td.days_long {
     text-align: right;
 }
 
-tr > td:nth-child(2), tr > td:nth-child(3) {
-    background-color: blueviolet;
+tr > td.days_long {
+    background-color: darkslategray;
     color: white;
-    text-align: center;
 }
 
-tr > td:nth-child(3) {
-    background-color: black;
-    color: darkgoldenrod;
+tr > td.percentage_length {
+    background-color: lightslategray;
+    text-align: right;
 }
 
-.wind  { background-color: white;     color: black; }
-.water { background-color: darkblue;  color: aqua; }
-.fire  { background-color: darkred;   color: gold; }
-.earth { background-color: green;     color: lawngreen; }
+.wind  { background-color: white;       color: black; }
+.water { background-color: darkblue;    color: aqua; }
+.fire  { background-color: darkred;     color: pink; }
+.earth { background-color: darkgreen;       color: lawngreen; }
 
 .constant { background-color: #DDD; color: #666; }
 .mutable  { background-color: #BBB; color: #666; }
