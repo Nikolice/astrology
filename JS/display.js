@@ -11,14 +11,14 @@ for (var i = 0; i < signs.length; i++) {
         lengthDays    = document.createElement("td"),
         lengthPercent = document.createElement("td");
 
-    index        .innerText = signs[i].Index;
-    icon         .innerText = signs[i].Icon;
-    zodiacName   .innerText = signs[i].Name;
-    entryYear    .innerText = signs[i].DateStart.getFullYear();
-    entryMonth   .innerText = signs[i].DateStart.getMonth() + 1;
-    entryDate    .innerText = signs[i].DateStart.getDate();
-    lengthDays   .innerText = signs[i].Length[0];
-    lengthPercent.innerText = signs[i].Length[1];
+    index        .innerHTML = signs[i].Index;
+    icon         .innerHTML = signs[i].Icon;
+    zodiacName   .innerHTML = "<a href='https://en.wikipedia.org/wiki/" + signs[i].Name + "_(constellation)'>" + signs[i].Name + "</a>";
+    entryYear    .innerHTML = signs[i].DateStart.getFullYear();
+    entryMonth   .innerHTML = signs[i].DateStart.getMonth() + 1;
+    entryDate    .innerHTML = signs[i].DateStart.getDate();
+    lengthDays   .innerHTML = signs[i].Length[0];
+    lengthPercent.innerHTML = signs[i].Length[1];
     
     index        .classList.add("index", signs[i].Element);
     icon         .classList.add("icon");

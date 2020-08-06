@@ -11,6 +11,10 @@ a {
     color: white;
 }
 
+th > a {
+    color: darkgoldenrod;
+}
+
 table {
     background-color: silver;
     border: groove silver thick;
