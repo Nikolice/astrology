@@ -9,18 +9,18 @@ class Sign {
     }
 }
 
-var Libra =         new Sign( 1, '♎', 'Весы',      'wind',   new Date(2019,  4, 29), [25,  6.85]);
-var Scorpio =       new Sign( 2, '♏', 'Скорпион',  'water',  new Date(2019,  5, 24), [ 8,  2.19]);
-var Ophiucus =      new Sign( 3, '⛎', 'Змееносец', '?',       new Date(2019,  6,  1), [18,  4.93]);
-var Sagittarius =   new Sign( 4, '♐', 'Стрелец',   'fire',   new Date(2019,  6, 19), [35,  9.59]);
-var Capricorn =     new Sign( 5, '♑', 'Козерог',   'earth',  new Date(2019,  7, 24), [29,  7.95]);
-var Aquarius =      new Sign( 6, '♒', 'Водолей',   'wind',   new Date(2019, 08, 22), [25,  6.85]);
-var Pisces =        new Sign( 7, '♓', 'Рыбы',      'water',  new Date(2019, 09, 16), [37, 10.14]);
-var Aries =         new Sign( 8, '♈', 'Овен',      'fire',   new Date(2019, 10, 23), [25,  6.85]);
-var Taurus =        new Sign( 9, '♉', 'Телец',     'earth',  new Date(2019, 11, 17), [36,  9.86]);
-var Gemini =        new Sign(10, '♊', 'Близнецы',  'wind',   new Date(2019, 12, 23), [28,  7.67]);
-var Cancer =        new Sign(11, '♋', 'Рак',       'water',  new Date(2020,  1, 20), [19,  5.21]);
-var Leo =           new Sign(12, '♌', 'Лев',       'fire',   new Date(2020,  2,  8), [36,  9.86]);
-var Virgo =         new Sign(13, '♍', 'Дева',      'earth',  new Date(2020,  3, 15), [45, 12.33]);
-
-var signs = [Libra, Scorpio, Ophiucus, Sagittarius, Capricorn, Aquarius, Pisces, Aries, Taurus, Gemini, Cancer, Leo, Virgo];
+var signs = [
+    new Sign( 1, '♎', 'Libra',         'wind',   new Date(2019,  3, 29), [25,  6.85]),
+    new Sign( 2, '♏', 'Scorpio',       'water',  new Date(2019,  4, 24), [ 8,  2.19]),
+    new Sign( 3, '⛎', 'Ophiucus',      '?',      new Date(2019,  5,  1), [18,  4.93]),
+    new Sign( 4, '♐', 'Sagittarius',   'fire',   new Date(2019,  5, 19), [35,  9.59]),
+    new Sign( 5, '♑', 'Capricorn',     'earth',  new Date(2019,  6, 24), [29,  7.95]),
+    new Sign( 6, '♒', 'Aquarius',      'wind',   new Date(2019,  7, 22), [25,  6.85]),
+    new Sign( 7, '♓', 'Pisces',        'water',  new Date(2019,  8, 16), [37, 10.14]),
+    new Sign( 8, '♈', 'Aries',         'fire',   new Date(2019,  9, 23), [25,  6.85]),
+    new Sign( 9, '♉', 'Taurus',        'earth',  new Date(2019, 10, 17), [36,  9.86]),
+    new Sign(10, '♊', 'Gemini',        'wind',   new Date(2019, 11, 23), [28,  7.67]),
+    new Sign(11, '♋', 'Cancer',        'water',  new Date(2020,  0, 20), [19,  5.21]),
+    new Sign(12, '♌', 'Leo',           'fire',   new Date(2020,  1,  8), [36,  9.86]),
+    new Sign(13, '♍', 'Virgo',         'earth',  new Date(2020,  2, 15), [45, 12.33])
+]
