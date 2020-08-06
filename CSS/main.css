@@ -51,7 +51,7 @@ tr > td.name {
     font-size: x-large;
 }
 
-tr > td.entry_month, tr > td.entry_day {
+tr > td.entryYear, tr > td.entryMonth, tr > td.entryDate {
     background-color: black;
     color: gold;
     text-align: center;
@@ -59,16 +59,16 @@ tr > td.entry_month, tr > td.entry_day {
     font-size: x-large;
 }
 
-tr > td.entry_day, tr > td.days_long {
+tr > td.entry_day, tr > td.lengthDays {
     text-align: right;
 }
 
-tr > td.days_long {
+tr > td.lengthDays {
     background-color: darkslategray;
     color: white;
 }
 
-tr > td.percentage_length {
+tr > td.lengthPercentage {
     background-color: lightslategray;
     text-align: right;
 }
