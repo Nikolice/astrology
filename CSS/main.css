@@ -82,6 +82,13 @@ tr > td.lengthPercentage {
     text-align: right;
 }
 
+tr.active > td.entryYear,
+tr.active > td.entryMonth, 
+tr.active > td.entryDate {
+    background-color: darkgoldenrod;
+    color: gold;
+}
+
 .wind  { 
     background-color: white;           
     color: gray; 

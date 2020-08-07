@@ -24,3 +24,5 @@ var signs = [
     new Sign(12, '♌', 'Leo',         'fire',   new Date(2020,  1,  8), [36,  9.86]),
     new Sign(13, '♍', 'Virgo',       'earth',  new Date(2020,  2, 15), [45, 12.33])
 ]
+
+signs[4].active = true;

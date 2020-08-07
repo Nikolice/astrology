@@ -29,6 +29,11 @@ for (var i = 0; i < signs.length; i++) {
     lengthDays   .classList.add("lengthDays");
     lengthPercent.classList.add("lengthPercent");
 
+    if(signs[i].active) {
+        console.log(signs[i], "is active!");
+        row.classList.add("active");
+    }
+
     row.append(
         index, 
         icon, 
